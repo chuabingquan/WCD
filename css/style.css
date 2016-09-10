@@ -1,0 +1,736 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300,100,300italic,100italic,400italic,700italic);
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(../localfonts/BebasNeue_Book.otf);
+}
+
+
+body {
+  max-width: 1366px; /*1280px*/
+  margin: 0 auto;
+  background-color: #FAFAFA;
+}
+
+.bodyContainer {
+  font-family: "roboto";
+  background-color: white;
+  animation: fadeIn 0.9s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.1;
+  }
+    to{
+      opacity: 1.0;
+    }
+}
+
+
+.navBar {
+  /*border: 1px solid black;*/
+  height: 147px;
+  text-align: center;
+}
+
+
+.logoText {
+  /*font-size: 55px;*/
+  font-size: 3.5em;
+  font-family: "bebas neue";
+  font-weight: 300;
+  position: relative;
+  padding-top: 48px;
+
+}
+
+.leftLinks {
+  float: left;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  margin-left: 110px;
+  margin-top: -43px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.rightLinks {
+  float: right;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  margin-right: 110px;
+  margin-top: -43px;
+  position: relative;
+  z-index: 1;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.logoText a {
+  color: black;
+}
+
+.leftLinks a {
+  color: black;
+  font-size: 1.1em;
+  margin-right: 95px;
+}
+
+.rightLinks a {
+  color: black;
+  font-size: 1.1em;
+  margin-left: 95px;
+}
+
+#homePage .homeLink, #blogPage .blogLink, #galleryPage .galleryLink, #contactPage .contactLink {
+  border-bottom: thin solid black;
+}
+
+/*.leftLinks a:visited {
+  border-bottom: thin solid black;
+}
+
+.rightLinks a:visited {
+    border-bottom: thin solid black;
+}*/
+
+.highlightsContainer {
+  background-image: url("../Images/marySeries2.jpg");
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.highlightsSupport {
+  /*border: 1px solid black;*/
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 7%;
+  font-family: Baskerville Regular;
+}
+
+.highlightsSupport .title{
+  font-size: 3.2em;
+}
+
+.highlightsSupport .supportingText{
+  font-size: 1.1em;
+  margin-top: -14%;
+}
+
+.highlightsSupport a {
+  color: black;
+  text-decoration: none;
+}
+
+.highlightsSupport .highlightsButton{
+  margin-top: 10%;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 0.9em;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 72%;
+  height: 30px;
+  padding-top: 5.7%;
+  text-align: center;
+}
+
+
+.highlightsButton:hover {
+  color: #eaeaf5;
+  background-color: black;
+  opacity: 0.9;
+  transition: background-color 0.4s;
+}
+
+#contactContentsContainer {
+  /*border: 1px solid black;*/
+  height: 800px;
+}
+
+#aboutContainer {
+  position: relative;
+  float: left;
+  /*border: 1px solid black;*/
+  border-right: thin solid #dadada;
+  padding-right: 6%;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+#contactFormContainer {
+  float: right;
+  position: relative;
+  /*border: 1px solid black;*/
+  margin-top: 5%;
+  margin-right: 13%;
+  width: 40%;
+}
+
+.contactHeader {
+  position: relative;
+  text-align: center;
+  /*border: 1px solid black;*/
+  font-family: baskerville regular;
+  font-size: 3.5em;
+}
+
+#aboutContainer hr {
+  width: 15%;
+  margin-top: -7%;
+}
+
+#contactFormContainer hr {
+  width: 10%;
+  margin-top: -7%;
+}
+
+#aboutContents {
+  font-family: baskerville regular;
+  font-size: 1.2em;
+  margin-left: 1%;
+}
+
+#linksContainer {
+  margin-top: 20%;
+  font-family: baskerville regular;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#linksContainer ul {
+  padding-left: 6%;
+}
+
+#linksContainer ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.formText {
+  clear: both;
+  font-family: baskerville regular;
+  font-size: 1.2em;
+}
+
+.formTB {
+  float: right;
+  width: 80%;
+  height: 30px;
+  background-color: #ececec;
+  border: none;
+}
+
+#formTextArea {
+  float: right;
+  width: 80%;
+  height: 140px;
+  background-color: #ececec;
+  border: none;
+}
+
+#formSubmitBtn {
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 0.9em;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 2.3%;
+  padding-bottom: 2.3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: right;
+  margin-top: 5%;
+}
+
+#formSubmitBtn:hover{
+  color: white;
+  background-color: black;
+  transition: background-color 0.4s;
+}
+
+#contactForm {
+  margin-left: -5%;
+}
+
+.blogPost {
+  /*border: 1px solid black;*/
+  font-family: "baskerville regular";
+}
+
+.blogPostSupport {
+  float: right;
+  /*border: 1px solid black;*/
+  clear: both;
+  width: 25%;
+  text-align: center;
+  margin-right: 7.5%;
+  margin-top: 2.5%;
+}
+
+.blogPostImage {
+  width: 55%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.blogPostTitle {
+  font-size: 3em;
+}
+
+.blogPostDT {
+  font-size: 0.9em;
+  margin-top: -10%;
+  margin-bottom: 7%;
+}
+
+.blogPostSupport hr {
+  width: 10%;
+}
+
+.blogPostButton {
+  font-family: "roboto";
+  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 55%;
+  height: 42px;
+  font-size: 0.9em;
+}
+
+.blogPostButton:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s;
+}
+
+.postDivider {
+  width: 90%;
+  /*color: #dadada;*/
+  height: 5px;
+  border: 0px solid #dadada;
+  border-top-width: 1px;
+}
+
+#galleryPage {
+  height: 800px;
+}
+
+#galleryContentsContainer p {
+  font-family: "baskerville regular";
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#galleryContentsContainer hr {
+  margin-top: 1.8%;
+  width: 2.5%;
+}
+
+.imageSetThumbnail {
+  width: 22%;
+  height: auto;
+  margin-left: 8.35%;
+  margin-top: 5%;
+}
+
+#galleryContentsContainer a {
+  text-decoration: none;
+}
+
+#galleryContentsContainer a:hover {
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+
+.articleContainer {
+  background-color: white;
+}
+
+.articleImage {
+  width: 100%;
+  height: auto;
+}
+
+.articleContents {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "baskerville regular";
+  padding-bottom: 10%;
+}
+
+.articleContents .articleTitle {
+  font-size: 3em;
+}
+
+.articleContents .articleDT {
+  font-size: 0.9em;
+  margin-top: -3%;
+}
+
+.articleContents hr {
+  width: 3%;
+}
+
+.articleWordsContainer {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.articleHeading {
+  text-align: left;
+  font-size: 2.5em;
+}
+
+.articleWords {
+  text-align: left;
+  margin-top: -3%;
+  clear: both;
+}
+
+.articleNavigation {
+  text-align: center;
+  font-family: "roboto";
+  font-weight: 300;
+}
+
+.articleNavigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.leftArtNav {
+  float: left;
+  margin-left: 20%;
+}
+
+.rightArtNav {
+  float: right;
+  margin-right: 20%;
+}
+
+.setContentsContainer {
+  font-family: "baskerville regular";
+  text-align: center;
+  background-color: white;
+}
+
+
+.setTitle {
+  font-size: 3em;
+}
+
+.setSubTitle {
+  font-size: 0.9em;
+  margin-top: -2.5%;
+}
+
+.setContentsContainer hr {
+  width: 3%;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .leftLinks {
+    display: none;
+  }
+
+  .rightWeb {
+    display: none;
+  }
+
+  #aboutContainer .contactHeader, #contactFormContainer .contactHeader {
+    font-size: 4em;
+  }
+
+  #aboutContainer{
+    border-right: none;
+    float: none;
+  }
+
+  #aboutContainer #aboutContents {
+    text-align: center;
+    font-size: 1.4em;
+    /*border: 1px solid black;*/
+  }
+
+  #aboutContainer hr {
+    width: 7%;
+    margin-top: 1%;
+  }
+
+  #linksContainer ul {
+    text-align: center;
+    margin-top: -12%;
+    font-size: 1.1em;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #contactContentsContainer {
+    height: 1500px;
+    margin: 0 auto;
+
+  }
+
+  #contactFormContainer {
+    float: none;
+    margin: 0% 20%;
+    width: 60%;
+  }
+
+  #contactFormContainer hr {
+    width: 14%;
+  }
+
+  #contactFormContainer #contactForm {
+    font-size: 1.1em;
+  }
+
+  .formText {
+    /*margin-left: -7%;*/
+    font-size: 1.4em;
+  }
+
+  #formSubmitBtn {
+    width: 100%;
+    font-size: 1.4em;
+  }
+
+  .formTB {
+    width: 100%;
+  }
+
+  #formTextArea {
+    width: 100%;
+  }
+
+  #galleryPage {
+    height: 2900px;
+  }
+
+  #galleryContentsContainer p {
+    font-size: 1.4em;
+  }
+
+  #galleryContentsContainer hr {
+    margin-top: 4%;
+    width: 4%;
+  }
+
+  .imageSetThumbnail {
+    width: 70%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .imageSetThumbnail:hover {
+    opacity: 0.8;
+    transition: opacity 0.4s;
+  }
+
+  .setTitle {
+    font-size: 4em;
+  }
+
+  .setSubTitle {
+    font-size: 1.2em;
+  }
+
+  .setContentsContainer {
+    height: 1000px;
+  }
+
+  .blogPostImage {
+    float: none;
+    position: static;
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+  }
+
+  .blogPostSupport {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .blogPostTitle {
+    font-size: 4em;
+  }
+
+  .blogPostDT {
+    font-size: 1.3em;
+    margin-top: -4%;
+  }
+
+  .blogPostSupport hr {
+    width: 4%;
+    margin-top: -5%;
+  }
+
+  .blogPostPreviewText {
+    font-size: 1.3em;
+  }
+
+  .blogPostButton {
+    font-size: 1.3em;
+    height: 65px;
+  }
+
+  .articleContents .articleTitle {
+    font-size: 3.5em;
+  }
+
+  .articleContents .articleDT {
+    margin-top: -5%;
+    font-size: 1.2em;
+  }
+
+  .articleContents hr {
+    width: 7%;
+  }
+
+  .articleHeading {
+    font-size: 3em;
+  }
+
+  .articleWords {
+    font-size: 1.2em;
+  }
+
+  .articleWordsContainer {
+    width: 70%;
+  }
+
+  .articleContainer {
+    padding-bottom: 50px;
+  }
+
+  .leftArtNav {
+    margin-left: 15%;
+  }
+
+  .rightArtNav {
+    margin-right: 15%;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+  #contactFormContainer {
+    width: 80%;
+    margin: 0% 10%;
+  }
+
+  #galleryPage {
+    height: 1800px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .highlightsContainer {
+    background-image: url('../Images/marySeries-medium.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .highlightsSupport {
+    margin-top: 27%;
+    margin-left: 7%;
+  }
+
+  .highlightsSupport .title {
+    font-size: 2.7em;
+  }
+
+  .highlightsSupport .supportingText {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .highlightsContainer {
+    height: 1100px;
+    background-image: url('../Images/marySeries-medium-small.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+
+  .highlightsSupport {
+    margin-top: 50%;
+    margin-left: 9%;
+  }
+
+  .highlightsSupport .title {
+    font-size: 3.5em;
+  }
+
+  .highlightsSupport .supportingText {
+    font-size: 1.2em;
+  }
+
+  .highlightsContainer .highlightsButton {
+    width: 80%;
+    height: 40px;
+    padding-top: 7%;
+  }
+
+  .highlightsButton span{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .highlightsSupport {
+    margin-top: 41%;
+    margin-left: 9%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .highlightsContainer {
+    height: 1100px;
+    background-image: url('../Images/marySeries-medium-small.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+
+  .highlightsSupport {
+    margin-top: 71%;
+    margin-left: 9%;
+  }
+
+  .highlightsSupport .title {
+    font-size: 3.5em;
+  }
+
+  .highlightsSupport .supportingText {
+    font-size: 1.2em;
+  }
+
+  .highlightsContainer .highlightsButton {
+    width: 80%;
+    height: 40px;
+    padding-top: 7%;
+  }
+
+  .highlightsButton span{
+    font-size: 1.2em;
+  }
+}

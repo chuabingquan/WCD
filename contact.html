@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link href="css/jquery.fatNav.css" rel="stylesheet">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <title>Bing Quan</title>
+</head>
+
+<body>
+  <script src="js/jquery.fatNav.js"></script>
+
+
+  <div class="bodyContainer" id="contactPage">
+
+
+
+    <div class="navBar">
+
+
+      <div class="logoText">
+        <a href="index.html">BING QUAN</a>
+      </div>
+
+      <div class="leftLinks">
+        <a href="index.html" class="homeLink">HOME</a>
+        <a href="blog.html" class="blogLink">BLOG</a>
+      </div>
+
+      <div class="rightLinks">
+        <div class="rightMobile">
+          <div class="fat-nav">
+            <div class="fat-nav__wrapper">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="rightWeb">
+          <a href="gallery.html" class="galleryLink">GALLERY</a>
+          <a href="contact.html" class="contactLink">CONTACT</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="contactContentsContainer">
+      <div id="aboutContainer">
+        <p class="contactHeader">About</p>
+        <hr>
+        <br>
+        <p id="aboutContents">
+          Bing Quan is based in Singapore and does
+          <br> minimalist and portrait photograhy.
+          <br> Photography is his passion and he is on a
+          <br> relentless pursuit to sharpen his craft. Bing
+          <br> Quan is open to work with like minded
+          <br> photographer and models alike.
+        </p>
+
+        <div id="linksContainer">
+          <ul>
+            <li>
+              <a href="http://bingquan.vsco.co/media/56211ad76e4569176648589d" target="_blank">2015 VSCO Collection 1</a>
+            </li>
+            <li>
+              <a href="http://bingquan.vsco.co/media/560fdc4d573f192b47a405d6" target="_blank">2015 VSCO Collection 2</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/xrSDYvrGbS/" target="_blank">2014 Insta SG Found</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/oG_IFQKObz/" target="_blank">2013 The New Paper Feature</a>
+            </li>
+          </ul>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div id="contactFormContainer">
+        <p class="contactHeader">Get In Touch</p>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <form id="contactForm" name="contactForm" onsubmit="return validateForm();">
+          <span class="formText">Name:</span>
+          <input type="text" name="nameOfWriter" class="formTB" required>
+
+          <br>
+          <br>
+          <br>
+
+          <span class="formText">Email:</span>
+          <input type="email" name="email" class="formTB" required>
+
+          <br>
+          <br>
+          <br>
+
+          <span class="formText">Subject:</span>
+          <input type="text" name="subject" class="formTB" required>
+
+          <br>
+          <br>
+          <br>
+
+          <span class="formText">Message:</span>
+          <textarea name="message" form="contactForm" id="formTextArea" required></textarea>
+
+          <input type="submit" name="submit" value="Submit" id="formSubmitBtn">
+        </form>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <script src = "js/endScript.js"></script>
+</body>
+
+</html>
