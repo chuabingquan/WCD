@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Bebas Neue;
-    src: url(../localfonts/BebasNeue_Book.otf);
+    src: url(../localFonts/BebasNeue_Book.otf);
 }
 
 
@@ -105,10 +105,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .highlightsSupport {
-  /*border: 1px solid black;*/
+  /* border: 1px solid black; */
   position: absolute;
   margin-top: 22%;
   margin-left: 7%;
